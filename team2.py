@@ -7,8 +7,8 @@
 ####
 
 team_name = 'Andrew' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'Best Chance'
+strategy_description = 'Determine an opponent\'s strategy based on their previous moves.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.

@@ -50,7 +50,7 @@ def determine_betray_percentage(their_history):
     elif ((betray_amount > collude_amount)): #If they've betrayed more than they've colluded...
         return round(betray_amount / (betray_amount + collude_amount)) #Determine their betray percentage and round it to a whole number.
     else: #If they've colluded more than they've betrayed...
-        round(collude_amount / (betray_amount + collude_amount)) #Determine their betray percentage and round it to a whole number.
+        return round(collude_amount / (betray_amount + collude_amount)) #Determine their betray percentage and round it to a whole number.
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
